@@ -17,7 +17,7 @@ sudo apt-get install -y git >/dev/null
 
 POPIT_NAME="popit"
 POPIT_HOME="$HOME/.local/share/${POPIT_NAME}"
-POPIT_REPO="https://github.com/modfin/popit.git"
+POPIT_REPO="https://github.com/crholm/popit.git"
 
 
 echo "Cloning popit..."

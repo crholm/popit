@@ -1,10 +1,10 @@
 
 
-## Commands
+## Popit 
 
+> A simple script to install some basic tools and configurations on a fresh 
+> Ubuntu 24.04 installation for Office workers. 
 
-- `Win` to Open Action Menu 
-- `Win+A` Open application Menu
-- `Win+D` Show Workspace
-- `Ctrl+Win+ArrowUp/ArrowDown` Switch Workspace
-  - Also 4 finger scroll
+```bash
+wget -qO- https://raw.githubusercontent.com/crholm/popit/refs/heads/master/boot.sh | bash
+```
