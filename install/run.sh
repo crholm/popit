@@ -7,8 +7,13 @@ POPIT_HOME=${POPIT_HOME:="$HOME/.local/share/popit"}
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 gsettings set org.gnome.desktop.session idle-delay 0
 
-# Run desktop installers
-for pre in ${POPIT_HOME}/install/01-system/*.sh; do source $pre; done
+#sudo apt update
+#sudo apt upgrade -y
 
-for installer in  ${POPIT_HOME}/install/02-main/*.sh; do source $installer; done
+# Run desktop installers
+for file in ${POPIT_HOME}/install/01-system/*.sh; do source $file; done
+
+for file in  ${POPIT_HOME}/install/02-main/*.sh; do source $file; done
+
+for file in  ${POPIT_HOME}/install/03-theme/*.sh; do source $file; done
 

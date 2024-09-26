@@ -3,6 +3,8 @@
 wget -O /tmp/edge.deb https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_128.0.2739.79-1_amd64.deb
 sudo dpkg -i /tmp/edge.deb
 
+## Figure out where i could configure the Edge browser
+## .config/microsoft-edge/...
 
 # https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/
 # curl and install
