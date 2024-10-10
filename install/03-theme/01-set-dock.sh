@@ -1,6 +1,9 @@
 
+
+#"microsoft-edge.desktop"
 apps=(
-	"microsoft-edge.desktop"
+  "google-chrome.desktop"
+
 	"Chat.desktop"
 
 	"Meet.desktop"
